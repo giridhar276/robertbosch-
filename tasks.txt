@@ -117,4 +117,43 @@ Charlie
 Dave
 
 
+###########################
+
+Write a program to join corresponding strings from two lists.
+
+first = ["Good", "Data", "Machine"]
+second = ["Morning", "Science", "Learning"]
+
+Output:
+Good Morning
+Data Science
+Machine Learning
+
+###########################
+
+Write a program to get all unique words from a list of sentences.
+
+sentences = ["hello world", "hello python", "data world"]
+
+output:
+["hello","world","python","data","world"]
+
+
+###########################
+
+write a program to convert the string to uppercase only if its length is more than 10 characters else display the same string.
+
+
+sample output:
+Enter a string: python programming
+PYTHON PROGRAMMING
+
+
+
+###########################
+
+
+
+###########################
+
 
