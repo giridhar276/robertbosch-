@@ -152,8 +152,35 @@ PYTHON PROGRAMMING
 
 ###########################
 
+write a progarm to count character frequencies:
+
+
+Enter a string :  hello
+
+h : 1 time
+e : 1 time
+l : 2 times
+o : 1 time
+
+###########################
+
+wrrite a program to reverse a list without list.reverse() and [::-1]
+
+###########################
+write a program to square each number in a list
+
+nums = [1,2,3,4]
+
+output:
+[1,2,9,16]
+
+###########################
+
 
 
 ###########################
+
+
+
 
 
