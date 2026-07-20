@@ -160,3 +160,105 @@ special opeators :
 in 
 as
 
+
+
+file handling 
+------------------
+
+xlsx/xls 
+csv 
+pdf 
+docx
+xml 
+jpg 
+yaml 
+json 
+.properties 
+txt 
+log 
+.conf 
+gif 
+rtf 
+bat
+mp3
+mp4
+dat
+zip 
+rar
+7z
+tar
+tar.gz
+
+
+working with flat files   ( log  txt conf  json yaml csv )
+------------------------------------
+- we dont need any third party tool 
+- we dont need any library for builtin formats
+
+working with third party files ( pdf xlsx pptx docx mp4  zip rar .....)
+---------------------------------
+- we ned third party tool to open this .
+- Depending on the file format.. we require third party library.
+
+
+import openpyxl  # excel files
+import zipfile  # zip file : creating, extracting
+import bs4
+import pptx 
+iport docx 
+
+
+
+
+working with flat files 
+--------------------------
+read mode  ( r )
+write mode ( w )
+append mode ( a )
+
+opening the file 
+------------------
+
+syntax:    object = open(file, mode )
+example:     fobj = open("customers.txt","r") # deafult mode 
+            case1: If the file is existing ... we can read the file
+            case2: if the file is not existing... Error will be displayed
+
+            fobj = open("customers.txt","w")
+            case1: if the file is not found... file gets created
+            case2: if the file is already existing.. it overwrites the existing
+
+            fobj = open("customers.txt","a")
+            case1: if the file is not found... file gets created
+            case2: if the file is already existing.. it adds the new content
+
+
+closing the file 
+-----------------
+object.close()
+
+
+
+different ways of reading and writing 
+-------------------------------------
+
+read operation 
+--------------
+- reading the file line by line using file object 
+- fobj.read()
+- fobj.readlines()
+- using csv library/ json library/xml library/yaml library
+- using pandas library 
+
+write operation 
+---------------
+- usign fobj.write()
+- using fobj.writeslines()
+- using csv library/json library/xml library/yaml library
+- using pandas library
+
+
+
+
+
+
