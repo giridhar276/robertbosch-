@@ -188,6 +188,13 @@ write a program to read automative_components.csv and display all the lines .
 
 write a program to read automative_components.csv and display all the UNIQUE plant locations.
 
+output:
+Bengaluru
+Nashik
+Pune
+Jaipur
+Chennai
+
 ###########################
 
 write a program to read automative_components.csv and display the below output
@@ -200,6 +207,8 @@ Nashik    :  4 times
 
 write a program to read automative_components.csv and display all the records
 where the plant location is Pune and units produced are less than 1200
+
+
 ###########################
 write a program to read automative_components.csv and display the below output:
 
