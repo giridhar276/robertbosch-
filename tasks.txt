@@ -208,7 +208,10 @@ Defective_Units      : 8987
 
 ###########################
 
+write a program to read automative_components.csv and display the total no. of records.
 
+Output:
+total no. records in the file : 50 records
 
 ###########################
 
