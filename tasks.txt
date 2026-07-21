@@ -195,6 +195,23 @@ Pune
 Jaipur
 Chennai
 
+
+
+import csv
+cityset = set()
+with open("automotive_components.csv") as fobj:
+    # converting file object to csv object
+    reader = csv.reader(fobj)
+    # processing
+    for line in reader:
+        city = line[3]
+        if city is not None or len(city) != 0:
+            cityset.add(city)
+    # display output
+    for city in cityset:
+        print(city)
+
+
 ###########################
 
 write a program to read automative_components.csv and display the below output
