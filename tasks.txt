@@ -212,6 +212,24 @@ with open("automotive_components.csv") as fobj:
         print(city)
 
 
+### method2:
+print("***** using list ******")
+import csv
+citylist = []
+with open("automotive_components.csv") as fobj:
+    # converting file object to csv object
+    reader = csv.reader(fobj)
+    # processing
+    for line in reader:
+        city = line[3]
+        if city not in citylist:
+            citylist.append(city)
+    # display output
+    for city in citylist:
+        print(city)
+
+
+
 ###########################
 
 write a program to read automative_components.csv and display the below output
