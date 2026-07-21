@@ -264,8 +264,8 @@ where the plant location is Pune and units produced are less than 1200
 ###########################
 write a program to read automative_components.csv and display the below output:
 
-Total Units_Produced :345
-Defective_Units      : 8987
+Total Units_Produced :345 ( sum of all the values in Units_Produced column)
+Defective_Units      : 8987 ( sum of all the values in Defective_Units column )
 
 ###########################
 
