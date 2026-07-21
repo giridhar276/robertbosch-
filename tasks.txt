@@ -181,6 +181,24 @@ output:
 ###########################
 
 
+write a program to read automative_components.csv and display all the lines .
+
+
+###########################
+
+write a program to read automative_components.csv and display all the UNIQUE plant locations.
+
+###########################
+
+write a program to read automative_components.csv and display the below output
+( display each unique plant location and no. of times it is repeated
+
+Bengaluru :  5 times 
+Nashik    :  4 times
+
+
+
+
 
 
 
