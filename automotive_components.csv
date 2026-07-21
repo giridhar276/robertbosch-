@@ -1,0 +1,31 @@
+Component_ID,Component_Name,Vehicle_System,Plant_Location,Supplier_Name,Production_Date,Units_Produced,Defective_Units,Quality_Status,Unit_Cost_INR
+CMP001,ABS Sensor,Braking System,Bengaluru,AutoParts India,2026-06-01,1250,12,Passed,850
+CMP002,Fuel Injector,Engine System,Nashik,Precision Components,2026-06-01,980,18,Passed,1450
+CMP003,ECU Module,Electronic Control,Bengaluru,MicroTech Systems,2026-06-02,760,9,Passed,5200
+CMP004,Oxygen Sensor,Emission System,Pune,SensorWorks,2026-06-02,1100,35,Review,1200
+CMP005,Brake Pad,Braking System,Jaipur,Friction Materials Ltd,2026-06-03,2100,22,Passed,620
+CMP006,Starter Motor,Electrical System,Nashik,ElectroDrive India,2026-06-03,640,14,Passed,3100
+CMP007,Wiper Motor,Body Electronics,Chennai,Motion Devices,2026-06-04,890,11,Passed,1850
+CMP008,Airbag Control Unit,Safety System,Bengaluru,SafeTech Electronics,2026-06-04,540,8,Passed,6800
+CMP009,Throttle Position Sensor,Engine System,Pune,SensorWorks,2026-06-05,1020,27,Review,980
+CMP010,Alternator,Electrical System,Nashik,ElectroDrive India,2026-06-05,720,16,Passed,4200
+CMP011,Wheel Speed Sensor,Braking System,Bengaluru,AutoParts India,2026-06-06,1360,10,Passed,910
+CMP012,Spark Plug,Ignition System,Jaipur,Ignite Components,2026-06-06,3200,45,Passed,240
+CMP013,Parking Sensor,Driver Assistance,Chennai,Vision Mobility,2026-06-07,1500,21,Passed,780
+CMP014,Electronic Power Steering Unit,Steering System,Pune,SteerTech India,2026-06-07,430,19,Review,8900
+CMP015,Battery Management Unit,Electric Vehicle,Bengaluru,EV Systems India,2026-06-08,380,6,Passed,12500
+CMP016,Radar Sensor,Driver Assistance,Bengaluru,Vision Mobility,2026-06-08,310,5,Passed,18000
+CMP017,Transmission Control Unit,Transmission System,Pune,MicroTech Systems,2026-06-09,470,13,Passed,7600
+CMP018,Coolant Temperature Sensor,Engine System,Nashik,SensorWorks,2026-06-09,1180,31,Review,670
+CMP019,Horn Assembly,Body Electronics,Chennai,SoundTech Automotive,2026-06-10,1650,17,Passed,540
+CMP020,High Pressure Pump,Fuel System,Nashik,Precision Components,2026-06-10,520,12,Passed,6400
+CMP021,Lane Assist Camera,Driver Assistance,Bengaluru,Vision Mobility,2026-06-11,280,7,Passed,22000
+CMP022,Electronic Throttle Body,Engine System,Pune,AutoParts India,2026-06-11,610,20,Review,3900
+CMP023,Cabin Air Filter,Climate Control,Jaipur,CleanAir Components,2026-06-12,2400,25,Passed,460
+CMP024,Blower Motor,Climate Control,Chennai,Motion Devices,2026-06-12,840,15,Passed,2100
+CMP025,NOx Sensor,Emission System,Bengaluru,SensorWorks,2026-06-13,460,28,Failed,4800
+CMP026,Electric Drive Motor,Electric Vehicle,Pune,EV Systems India,2026-06-13,190,4,Passed,48000
+CMP027,DC-DC Converter,Electric Vehicle,Bengaluru,Power Electronics Ltd,2026-06-14,260,6,Passed,15500
+CMP028,Fuel Level Sensor,Fuel System,Nashik,SensorWorks,2026-06-14,970,23,Review,720
+CMP029,Central Locking Motor,Body Electronics,Chennai,Motion Devices,2026-06-15,1240,18,Passed,1100
+CMP030,Electronic Stability Control Unit,Safety System,Bengaluru,SafeTech Electronics,2026-06-15,410,9,Passed,9800
