@@ -196,8 +196,21 @@ write a program to read automative_components.csv and display the below output
 Bengaluru :  5 times 
 Nashik    :  4 times
 
+###########################
+
+write a program to read automative_components.csv and display all the records
+where the plant location is Pune and units produced are less than 1200
+###########################
+write a program to read automative_components.csv and display the below output:
+
+Total Units_Produced :345
+Defective_Units      : 8987
+
+###########################
 
 
+
+###########################
 
 
 
