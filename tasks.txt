@@ -238,6 +238,23 @@ write a program to read automative_components.csv and display the below output
 Bengaluru :  5 times 
 Nashik    :  4 times
 
+
+print("***** using list ******")
+import csv
+citylist = []
+with open("automotive_components.csv") as fobj:
+    header = fobj.readline()
+    # converting file object to csv object
+    reader = csv.reader(fobj)
+    # processing
+    for line in reader:
+        city = line[3]
+        citylist.append(city)
+
+    for cityname in set(citylist):
+        print(cityname , citylist.count(cityname))
+
+
 ###########################
 
 write a program to read automative_components.csv and display all the records
