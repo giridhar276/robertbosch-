@@ -325,3 +325,155 @@ else
 finally
 raise 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+task =   core programming  +     libraries +    domain expertise
+          - objects              - web scraping
+          - methods              - test cases
+          - conditions           - web dev
+          - iterations           - automations
+          - built functions.     - network automation
+          - user defined         - server automations
+          - file handling        - analytics
+          - exception handli.    - machine learning
+          - object oriented      - gen ai 
+                                 - gui tools 
+                                 - database 
+                                 - autmation testing
+   
+
+
+libraries 
+----------
+
+builtin libraries 
+--------------------
+builtin libraries are installed with python which are used generally.
+- csv , json , file handling , system related , metrics
+  mails related 
+
+where do we check all the builtin libraries ?
+
+third party libraries 
+--------------------
+Depending on the requirement , developer has to install the 
+third party library from pypi.org using pip tool.
+
+
+
+
+
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+write a script to perform the below operations :
+
+1. display current working directory  os.getcwd()
+2. display login name    os.getlogin()
+3. display all environment variables   os.environ
+4. display today's date ( timestamp )   datetime.datetime.now()
+5. display May months calendar          calendar.month(6,2026)
+6. display all .py files and its size in bytes 
+7. display the modified time of employees.csv file
+8. display current process id          os.getpid()
+
+
+
+
+
+write a script to display the below information 
+
+1. CPU percentage
+2. Memory info ( total memory, available, used)
+3. process info
+4. disk partitions
+5. network statistics
+4. platform details ( like OS name , model , python version)
+5. boot time of your system
+6. IP Address of your system
+7. hostname of the system
+
+
+*** Never save the filename with 
+    - library names ( Eg: os, random,sys .....)
+    - builtin functions  ( print ,range,len)
+    - keywords ( if , for , while , except )
