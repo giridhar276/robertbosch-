@@ -258,7 +258,70 @@ write operation
 - using pandas library
 
 
+#########################################################################
+
+function | definition | block | routine | submodule
+----------------------------------------------------
+-  lines of code written seperately and it is called as block or definition
+- code reusability 
+- define the block once and call it for multiple times 
+
+There are 2 types of functions
+
+- builtin functions 
+- user defined functions 
+
+builtin fucntions   ( print(dir(__builtins__)))
+( if you want to display all the bulitin functions :   print(dir(__builtins__)))
+print()
+range()
+len()
+input()
+type()
+isinstance()
+
+
+user defined functions 
+---------------------
+- code usability
+
+# function body
+def display(a,b):
+   c = a + b
+   return c
+
+# calling function 
+output = display(10,20)
+print(output)
+
+different ways of passing arguments
+---------------------------
+- fixed arguments 
+- default arguments 
+- keyword arguments 
+- variable length arguments 
 
 
 
+
+
+
+exception handling 
+-------------------------
+
+There are 2 types of errors :
+
+-syntax error 
+
+-semantic error or logical error or runtime error 
+
+
+Handling errors that occurs during runtime is known as exception handling 
+
+
+try 
+except 
+else
+finally
+raise 
 
