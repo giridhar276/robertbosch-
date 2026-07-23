@@ -1,0 +1,181 @@
+15 FREQUENTLY USED PIP COMMANDS
+================================
+
+1. CHECK PIP VERSION
+--------------------
+
+Command:
+pip --version
+
+Explanation:
+Displays the installed pip version and the Python installation associated with it.
+
+
+2. INSTALL A PACKAGE
+--------------------
+
+Command:
+pip install requests
+
+Explanation:
+Installs the latest compatible version of the requests package and its dependencies.
+
+
+3. INSTALL MULTIPLE PACKAGES
+----------------------------
+
+Command:
+pip install requests pandas numpy
+
+Explanation:
+Installs multiple Python packages in a single command.
+
+
+4. INSTALL A SPECIFIC VERSION
+-----------------------------
+
+Command:
+pip install requests==2.32.5
+
+Explanation:
+Installs exactly the specified version of the package.
+
+
+5. INSTALL A MINIMUM VERSION
+----------------------------
+
+Command:
+pip install "requests>=2.30"
+
+Explanation:
+Installs version 2.30 or any newer compatible version.
+
+
+6. INSTALL WITHIN A VERSION RANGE
+---------------------------------
+
+Command:
+pip install "requests>=2.30,<3.0"
+
+Explanation:
+Installs a version that is at least 2.30 but lower than 3.0.
+
+
+7. UPGRADE A PACKAGE
+--------------------
+
+Command:
+pip install --upgrade requests
+
+Explanation:
+Upgrades the package to the latest compatible version available.
+
+
+8. UPGRADE PIP
+--------------
+
+Command:
+pip install --upgrade pip
+
+Explanation:
+Upgrades pip itself to the latest available version.
+
+
+9. INSTALL FROM REQUIREMENTS.TXT
+--------------------------------
+
+Command:
+pip install -r requirements.txt
+
+Explanation:
+Installs all packages and versions listed in the requirements.txt file.
+
+
+10. INSTALL A PACKAGE WITH EXTRAS
+---------------------------------
+
+Command:
+pip install "fastapi[standard]"
+
+Explanation:
+Installs the package together with an optional group of additional dependencies.
+
+
+11. FORCE REINSTALL A PACKAGE
+-----------------------------
+
+Command:
+pip install --force-reinstall requests
+
+Explanation:
+Reinstalls the package even when the same version is already installed.
+
+
+12. INSTALL WITHOUT USING CACHE
+-------------------------------
+
+Command:
+pip install --no-cache-dir requests
+
+Explanation:
+Downloads and installs a fresh copy without using previously cached package files.
+
+
+13. LIST INSTALLED PACKAGES
+---------------------------
+
+Command:
+pip list
+
+Explanation:
+Displays all packages installed in the current Python environment.
+
+
+14. SHOW PACKAGE INFORMATION
+----------------------------
+
+Command:
+pip show requests
+
+Explanation:
+Displays the package version, installation location, dependencies, and other metadata.
+
+
+15. UNINSTALL A PACKAGE
+-----------------------
+
+Command:
+pip uninstall requests
+
+Explanation:
+Removes the selected package after asking for confirmation.
+
+
+BONUS COMMANDS
+==============
+
+Export installed packages:
+
+pip freeze > requirements.txt
+
+Explanation:
+Saves all installed package names and exact versions into requirements.txt.
+
+
+Check dependency problems:
+
+pip check
+
+Explanation:
+Checks whether installed packages have missing or incompatible dependencies.
+
+
+IMPORTANT NOTE
+==============
+
+On Windows or macOS, the pip command should normally work when Python and pip are
+properly added to the system PATH.
+
+For package names containing square brackets, use quotes:
+
+pip install "mcp[cli]"

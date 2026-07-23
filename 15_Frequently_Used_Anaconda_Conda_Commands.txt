@@ -1,0 +1,369 @@
+15 FREQUENTLY USED ANACONDA / CONDA COMMANDS
+============================================
+
+These commands are intended for participants using Anaconda or Miniconda.
+
+Where to run them:
+- Windows: Anaconda Prompt
+- macOS: Terminal after Anaconda or Miniconda installation
+
+Important:
+Use conda commands for environment and package management whenever possible.
+Use pip only after activating the required conda environment and when the package
+is not available through conda.
+
+
+1. CHECK CONDA VERSION
+----------------------
+
+Command:
+conda --version
+
+Explanation:
+Displays the installed conda version and confirms that conda is available.
+
+
+2. DISPLAY CONDA INFORMATION
+----------------------------
+
+Command:
+conda info
+
+Explanation:
+Shows details about the conda installation, active environment, platform, and
+configured environment locations.
+
+
+3. LIST ALL CONDA ENVIRONMENTS
+------------------------------
+
+Command:
+conda env list
+
+Alternative:
+conda info --envs
+
+Explanation:
+Displays all conda environments and marks the currently active environment with
+an asterisk.
+
+
+4. CREATE A NEW ENVIRONMENT
+---------------------------
+
+Command:
+conda create --name training_env python=3.11
+
+Short form:
+conda create -n training_env python=3.11
+
+Explanation:
+Creates a new isolated environment named training_env with Python 3.11 installed.
+
+
+5. ACTIVATE AN ENVIRONMENT
+--------------------------
+
+Command:
+conda activate training_env
+
+Explanation:
+Activates the selected environment so packages are installed and used only inside
+that environment.
+
+
+6. DEACTIVATE THE CURRENT ENVIRONMENT
+-------------------------------------
+
+Command:
+conda deactivate
+
+Explanation:
+Exits the active conda environment and returns to the previous environment.
+
+
+7. INSTALL A PACKAGE
+--------------------
+
+Command:
+conda install pandas
+
+Explanation:
+Installs the latest compatible version of pandas and its dependencies into the
+active conda environment.
+
+
+8. INSTALL MULTIPLE PACKAGES
+----------------------------
+
+Command:
+conda install pandas numpy matplotlib
+
+Explanation:
+Installs multiple packages into the active conda environment in one command.
+
+
+9. INSTALL A SPECIFIC PACKAGE VERSION
+-------------------------------------
+
+Command:
+conda install pandas=2.2.3
+
+Explanation:
+Installs exactly the specified version of the package when that version is
+available from the configured conda channels.
+
+
+10. INSTALL FROM CONDA-FORGE
+----------------------------
+
+Command:
+conda install -c conda-forge fastapi
+
+Explanation:
+Installs the package from the conda-forge channel, which provides a large
+collection of community-maintained packages.
+
+
+11. UPDATE A PACKAGE
+--------------------
+
+Command:
+conda update pandas
+
+Explanation:
+Updates the selected package to the latest compatible version available in the
+configured channels.
+
+
+12. UPDATE CONDA
+----------------
+
+Command:
+conda update conda
+
+Explanation:
+Updates the conda package manager itself to the latest compatible version.
+
+
+13. LIST INSTALLED PACKAGES
+---------------------------
+
+Command:
+conda list
+
+Explanation:
+Displays all packages and versions installed in the active conda environment.
+
+
+14. REMOVE A PACKAGE
+--------------------
+
+Command:
+conda remove pandas
+
+Explanation:
+Removes the selected package from the active conda environment.
+
+
+15. REMOVE AN ENVIRONMENT
+-------------------------
+
+Command:
+conda remove --name training_env --all
+
+Short form:
+conda remove -n training_env --all
+
+Explanation:
+Deletes the complete environment and all packages installed inside it.
+
+
+ADDITIONAL USEFUL COMMANDS
+==========================
+
+16. CREATE AN ENVIRONMENT WITH PACKAGES
+---------------------------------------
+
+Command:
+conda create -n data_env python=3.11 pandas numpy matplotlib
+
+Explanation:
+Creates a new environment and installs the required Python version and packages
+in a single command.
+
+
+17. SEARCH FOR A PACKAGE
+------------------------
+
+Command:
+conda search scikit-learn
+
+Explanation:
+Searches the configured conda channels for available versions of the package.
+
+
+18. EXPORT AN ENVIRONMENT
+-------------------------
+
+Command:
+conda env export > environment.yml
+
+Explanation:
+Saves the active environment, package versions, and channels into an
+environment.yml file.
+
+
+19. CREATE AN ENVIRONMENT FROM YAML
+-----------------------------------
+
+Command:
+conda env create -f environment.yml
+
+Explanation:
+Creates a conda environment using the packages and configuration stored in the
+environment.yml file.
+
+
+20. UPDATE AN ENVIRONMENT FROM YAML
+-----------------------------------
+
+Command:
+conda env update -f environment.yml
+
+Explanation:
+Updates the active or named environment based on the packages listed in the YAML
+file.
+
+
+21. CLONE AN ENVIRONMENT
+------------------------
+
+Command:
+conda create --name training_copy --clone training_env
+
+Explanation:
+Creates an exact copy of an existing conda environment under a new name.
+
+
+22. CLEAN UNUSED CONDA FILES
+----------------------------
+
+Command:
+conda clean --all
+
+Explanation:
+Removes unused package caches, index caches, and temporary files to free disk
+space. Conda asks for confirmation before deleting them.
+
+
+23. CHECK THE ACTIVE PYTHON
+---------------------------
+
+Windows:
+where python
+
+macOS:
+which python
+
+Explanation:
+Displays the Python executable currently being used. After activating a conda
+environment, the path should point to that environment.
+
+
+USING PIP INSIDE AN ANACONDA ENVIRONMENT
+========================================
+
+Activate the environment first:
+
+conda activate training_env
+
+Then install using pip:
+
+pip install requests
+
+Explanation:
+The package is installed into the active conda environment. This is useful when
+the package is unavailable through conda.
+
+
+Install a package with extras:
+
+pip install "mcp[cli]"
+
+Explanation:
+Quotes prevent the terminal from interpreting square brackets and ensure that
+the optional dependency group is installed correctly.
+
+
+View pip packages:
+
+pip list
+
+Explanation:
+Displays packages visible to pip inside the currently active conda environment.
+
+
+IMPORTANT RECOMMENDED ORDER
+===========================
+
+1. Create and activate the conda environment.
+2. Install as many packages as possible using conda.
+3. Use conda-forge when the package is not available in the default channel.
+4. Use pip only when the package is unavailable through conda.
+5. Avoid repeatedly mixing conda and pip installations unless necessary.
+
+
+RECOMMENDED CLASSROOM WORKFLOW
+==============================
+
+Create the environment:
+
+conda create -n python_training python=3.11
+
+Activate it:
+
+conda activate python_training
+
+Install common packages:
+
+conda install pandas numpy matplotlib jupyter
+
+Install a pip-only package:
+
+pip install requests
+
+List installed packages:
+
+conda list
+
+Export the environment:
+
+conda env export > environment.yml
+
+Deactivate it:
+
+conda deactivate
+
+
+CONDA AND PIP DIFFERENCE
+========================
+
+conda install pandas
+
+Explanation:
+Conda manages Python packages, non-Python libraries, and complete environments.
+
+
+pip install pandas
+
+Explanation:
+Pip installs Python packages from PyPI into the currently active Python
+environment.
+
+
+FINAL TIP
+=========
+
+For Anaconda users, run commands in Anaconda Prompt on Windows or Terminal on
+macOS after activating the required conda environment.
