@@ -1,0 +1,41 @@
+customer_id,age,monthly_spend,tenure_months,support_calls,contract_type,payment_method,churn
+1,22,1200,4,1,Monthly,UPI,1
+2,45,5400,36,0,Yearly,Bank Transfer,0
+3,34,3200,12,3,Monthly,Credit Card,1
+4,29,2800,18,1,Quarterly,UPI,0
+5,51,6100,48,0,Yearly,Credit Card,0
+6,40,4700,10,4,Monthly,Bank Transfer,1
+7,26,1800,6,3,Monthly,UPI,1
+8,38,3900,30,1,Yearly,Credit Card,0
+9,31,2600,8,2,Monthly,UPI,1
+10,55,7200,60,0,Yearly,Bank Transfer,0
+11,43,5000,22,1,Quarterly,Credit Card,0
+12,24,1500,3,5,Monthly,UPI,1
+13,36,3500,15,2,Quarterly,Bank Transfer,0
+14,48,5900,42,0,Yearly,Credit Card,0
+15,30,2400,7,4,Monthly,UPI,1
+16,52,6800,54,1,Yearly,Bank Transfer,0
+17,27,2100,9,3,Monthly,Credit Card,1
+18,41,4600,28,1,Quarterly,UPI,0
+19,33,3000,11,2,Monthly,Bank Transfer,1
+20,46,5600,39,0,Yearly,Credit Card,0
+21,28,2300,5,4,Monthly,UPI,1
+22,39,4100,24,1,Quarterly,Bank Transfer,0
+23,50,6400,45,0,Yearly,Credit Card,0
+24,25,1700,4,5,Monthly,UPI,1
+25,37,3700,20,2,Quarterly,Credit Card,0
+26,44,5200,32,1,Yearly,Bank Transfer,0
+27,32,2900,6,3,Monthly,Credit Card,1
+28,47,5800,40,0,Yearly,UPI,0
+29,23,1400,2,5,Monthly,UPI,1
+30,42,4800,26,1,Quarterly,Credit Card,0
+31,35,3300,13,3,Monthly,Bank Transfer,1
+32,53,7000,58,0,Yearly,Credit Card,0
+33,29,2500,9,2,Monthly,UPI,1
+34,49,6000,44,0,Yearly,Bank Transfer,0
+35,38,4000,21,1,Quarterly,Credit Card,0
+36,26,1900,5,4,Monthly,UPI,1
+37,45,5500,37,0,Yearly,Credit Card,0
+38,31,2700,10,3,Monthly,Bank Transfer,1
+39,54,7100,57,0,Yearly,UPI,0
+40,40,4500,27,1,Quarterly,Credit Card,0
