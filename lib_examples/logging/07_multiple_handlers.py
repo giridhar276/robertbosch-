@@ -1,0 +1,11 @@
+import logging
+logger = logging.getLogger("multi_handler_logger")
+logger.setLevel(logging.DEBUG)
+console = logging.StreamHandler()
+console.setLevel(logging.WARNING)
+file_handler = logging.FileHandler("multi.log")
+file_handler.setLevel(logging.DEBUG)
+logger.addHandler(console)
+logger.addHandler(file_handler)
+logger.debug("Only goes to file")
+logger.warning("Goes to both console and file")
